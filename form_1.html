@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zookeeper Form</title>
+</head>
+<body>
+    <h1>Zoo Keeper Application Form</h1>
+    <i>Please complete the form. Mandatory fields are marked with a *</i>
+    <fieldset>
+        <legend>Contact details</legend>
+        <label required>Name<sup>*</sup></label>
+        <input type="text" required><br>
+        <label>Telephone</label>
+        <input type="text"><br>
+        <label required>Email<sup>*</sup></label>
+        <input type="text">
+    </fieldset>
+    <fieldset>
+        <legend>Personal Information</legend>
+        <label required><sup>*</sup>Age</label>
+        <input type="text"><br>
+        <label required>Gender</label>
+        <select>
+            <option> Male
+            </option>
+            <option> Female
+            </option>
+        </select><br>
+        <label>When did you first know you wanted to be a zoo-keeper?</label>
+        <textarea></textarea><br>
+    </fieldset>
+    <fieldset>
+        <legend>Pick Your Favorite Animals</legend>
+        <input type="checkbox">Zebra
+        <input type="checkbox">Cat
+        <input type="checkbox">Anaconda
+        <input type="checkbox">Human<br>
+        <input type="checkbox">Elephant
+        <input type="checkbox">Wildebeest
+        <input type="checkbox">Pigeon
+        <input type="checkbox">Crab<br>
+        <button style="border-color:cyan;">Submit Application</button>
+    </fieldset>
+</body>
+</html>
